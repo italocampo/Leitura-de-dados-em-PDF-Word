@@ -47,6 +47,7 @@ if not numeros:
     print("Arquivo encontrado, porém não há números válidos. ")
     exit()
 
+#Aqui saem os valores calculados.
 print("\n📊 Estatísticas dos dados:")
 print(f"Quantidade de números: {len(numeros)}")
 print(f"Média: {statistics.mean(numeros):.2f}")
