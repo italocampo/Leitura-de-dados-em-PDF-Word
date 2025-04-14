@@ -48,7 +48,7 @@ if not numeros:
     exit()
 
 #Aqui saem os valores calculados.
-print("\n📊 Estatísticas dos dados:")
+print("\nEstatísticas dos dados:")
 print(f"Quantidade de números: {len(numeros)}")
 print(f"Média: {statistics.mean(numeros):.2f}")
 print(f"Mediana: {statistics.median(numeros):.2f}")
